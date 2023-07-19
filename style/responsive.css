@@ -3,14 +3,37 @@
         flex-direction: column;
         gap: 30px;
         text-align: center;
+        align-items: center;
         
     }
-    .banner-container{
-        flex-direction: column;
-
+     .banner{
+        flex-direction: column-reverse;
+        margin-top: 30px;
+        gap: 20px;
+    }
+    .banner-img, .banner-description{
+        width: 95%;
+        margin:20px auto;     
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
     }
 }
 
-@media screen and (min-width: 570) and (max-width:920) {
+@media screen and (min-width: 570px) and (max-width:920px) {
     
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 30px;
+        gap: 20px;
+    }
+    .banner-img, .banner-description{
+        width: 95%;
+        margin:20px auto;     
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
+    }
 }
