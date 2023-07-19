@@ -1,0 +1,16 @@
+@media screen and (max-width: 570px) {
+    nav, .menu-bar> ul{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        
+    }
+    .banner-container{
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (min-width: 570) and (max-width:920) {
+    
+}
