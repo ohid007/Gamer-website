@@ -64,6 +64,7 @@ nav {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    align-items: center;
     font-weight: 500;
     font-size: 1rem;
 
@@ -84,6 +85,7 @@ nav a {
 }
 
 .follow-link {
+    display: inline-block;
     padding: 10px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10)
@@ -147,7 +149,7 @@ nav a {
 /* games and videos styles start here */
 .games-videos {
     max-width: 1440px;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     text-align: center;
 }
 
@@ -269,12 +271,11 @@ nav a {
 }
 
 .games-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-row-gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
-    align-items: center;
-    justify-items: center;
+    align-content: center;
+    justify-content: center;
     text-align: center;
     padding: 50px 0px;
     max-width: 1440px;
@@ -286,9 +287,8 @@ nav a {
     display: flex;
     border-radius: 30px;
     background-color: #FFF;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
-
 .games:hover {
     border: 2px solid red;
 }
@@ -317,7 +317,6 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
     color: #FFF;
-    font-size: 1rem;
     font-weight: 600;
 
 }
@@ -328,15 +327,26 @@ footer {
     align-items: center;
 
 }
+.footer-logo a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 10px;
+    text-align: center;
+    
+}
 
-.footer-logo>i {
-    font-size: 30px;
-    margin-right: 25px;
+.footer-logo>a:link{
+    color: white;
+    
+}
+.footer-logo>a:visited{
+    color: white;
 }
 
 .privacy {
     color: rgba(255, 255, 255, 0.60);
     display: flex;
+    align-content: center;
     gap: 20px;
 }
 
