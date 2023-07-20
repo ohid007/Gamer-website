@@ -1,93 +1,114 @@
 @media screen and (max-width: 570px) {
-    nav, .menu-bar> ul{
+
+    nav,
+    .menu-bar>ul {
         flex-direction: column;
         gap: 30px;
         text-align: center;
         align-items: center;
-        
+
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
         margin-top: 30px;
         gap: 20px;
     }
-    .goat{
+
+    .goat {
         font-size: 4rem;
     }
-    .banner-img, .banner-description{
+
+    .banner-img,
+    .banner-description {
         width: 100%;
-        margin:20px auto;     
+        margin: 20px auto;
     }
-    .dot{
+
+    .dot {
         height: 10px;
         width: 10px;
     }
+
     /* online games and videos responsiveness */
-    .card-container{
+    .card-container {
         flex-direction: column;
     }
-    .play{
+
+    .play {
         flex-direction: column;
         width: auto;
     }
-    .play-description{
+
+    .play-description {
         padding: 0;
         width: 100%;
         text-align: center;
     }
-   
+
     /* imge positioning */
 
-    .positioning{
-            width: 70%;
+    .positioning {
+        width: 70%;
     }
-    .back-img{
+
+    .back-img {
         width: 100%;
     }
-    .front-img{
-            width: 50%;
+
+    .front-img {
+        width: 50%;
     }
-     /* games section */
-     .games{
+
+    /* games section */
+    .games {
         padding: 0px;
     }
-    .games-container{
+
+    .games-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding: 5px;
     }
+
     /* footer section */
-    .footer-options{
+    .footer-options {
         gap: 10px;
     }
-    .privacy{
+
+    .privacy {
         gap: 0px;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
 
     }
 }
 
 @media screen and (min-width: 570px) and (max-width:920px) {
-    
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
         margin-top: 30px;
         gap: 20px;
     }
-    .banner-img, .banner-description{
+
+    .banner-img,
+    .banner-description {
         width: 95%;
-        margin:20px auto;     
+        margin: 20px auto;
     }
-    .dot{
+
+    .dot {
         height: 10px;
         width: 10px;
     }
-    .card-container{
+
+    .card-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .play{
+
+    .play {
         flex-direction: column;
     }
 }
