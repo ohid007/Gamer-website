@@ -34,6 +34,9 @@
     .card-container {
         flex-direction: column;
     }
+    .games-videos{
+        margin: 0;
+    }
 
     .play {
         flex-direction: column;
